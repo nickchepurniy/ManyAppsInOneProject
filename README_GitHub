@@ -1,0 +1,51 @@
+    (A) (1) Project 'ManyAppsInOneProject' was created using expo command in the
+            (HOME) subdirectory REACT_NATIVE:
+                expo init ManyAppsInOneProject
+                (with template: expo-template-bare-typescript )
+            To run above project (using the created App.tsx file):
+                cd ManyAppsInOneProject
+                yarn web  (OR  expo r -c )
+
+            The App.tsx was moved to App_ORIGINAL.tsx because we will copy into App.tsx 
+            one of the files listed below:
+
+        (2) The idea here is to copy one of the files listed below into App.tsx and use
+            the command: 
+
+                yarn web
+            
+            instead of creating a project directory for each of the files listed here:
+
+              App_Lights_Version2.tsx      // first Functional App Component
+              App_QuadraticVersion4.tsx    // gets roots of a quadratic from coeff and vice-versa
+              App_SVG_03WithMain.tsx       // displays the 44 test plots used in App_Quadratic
+              App_Several_Steps_Vers2.tsx  // train schedule for several stations
+              App_Magic_Squares.tsx        // shows how to get basic solution of 3x3 Magic Square
+              App649_Version2.tsx          // verifies a 6/49 lotto ticket against 10 draws
+              AppRenderArrayWithMap.tsx    // uses a handle function for each element in array
+              AppRenderArrayWithMap_V2.tsx // uses a single handle function for all elements
+              App_Anim00.tsx               // Simple Animated.timing using one circle
+              App_Anim01_vers3.tsx         // Animated.timing used for three circles
+              App_Anim04_v5.tsx            // Circle draggable or click-positioned at new location
+              App_FC_setState.tsx          // useEffect toggled to illustrate how to use it
+              App_CC_setState.tsx          // add 2 numbers and claculate sum using class components
+
+        (3) Creaated subdirectory App_A under ManyAppsInOneProject and copied into it several files
+            required by the main Apps in directory ManyAppsInOneProject. Added special components to
+            dir node_modules (using the yarn command) ch are required by the main Apps, such as:
+
+                yarn add react-native-paper   
+                yarn add react-native-svg
+
+    (B) GitHub the 'ManyAppsInOneProject' project
+    
+    (C) AFter cloning from GitHub into another user's computer you will be required to install
+        the module `expo` using command:
+
+                yarn add expo
+
+----------------------------------------------------------------------------------------
+
+
+
+
